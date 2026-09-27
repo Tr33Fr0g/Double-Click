@@ -1,0 +1,2 @@
+-- Replaces Roblox's default health regeneration script. HP lives on the server's fighter
+-- state (see Server/Fighter), not on Humanoid.Health, and never regenerates on its own.

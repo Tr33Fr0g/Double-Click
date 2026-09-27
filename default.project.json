@@ -1,0 +1,63 @@
+{
+  "name": "DoubleClick",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Remotes": {
+        "$className": "Folder",
+        "Action": {
+          "$className": "RemoteEvent"
+        },
+        "Event": {
+          "$className": "RemoteEvent"
+        },
+        "Debug": {
+          "$className": "RemoteEvent"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "$properties": {
+        "EnableMouseLockOption": false
+      },
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      },
+      "StarterCharacterScripts": {
+        "$path": "src/character"
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "Gravity": 196.2
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.35,
+          0.35,
+          0.4
+        ],
+        "OutdoorAmbient": [
+          0.5,
+          0.5,
+          0.55
+        ],
+        "Brightness": 2.5,
+        "ClockTime": 14.5,
+        "GlobalShadows": true
+      }
+    }
+  }
+}

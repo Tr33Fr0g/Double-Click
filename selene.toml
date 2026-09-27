@@ -1,0 +1,5 @@
+std = "roblox"
+
+[lints]
+# Placeholder tuning tables intentionally shadow nothing, but config modules are long.
+shadowing = "allow"
